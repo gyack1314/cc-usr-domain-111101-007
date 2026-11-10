@@ -1,0 +1,17 @@
+{
+  "name": "数据依赖图的内容寻址增量重算",
+  "files": [
+    {
+      "path": "partitions.json",
+      "key": "id"
+    },
+    {
+      "path": "nodes.json",
+      "key": "id"
+    },
+    {
+      "path": "targets.json",
+      "key": "id"
+    }
+  ]
+}

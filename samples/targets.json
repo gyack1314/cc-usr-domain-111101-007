@@ -1,0 +1,9 @@
+[
+  {
+    "id": "daily",
+    "nodes": [
+      "all_summary",
+      "keys"
+    ]
+  }
+]

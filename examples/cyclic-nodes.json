@@ -1,0 +1,18 @@
+[
+  {
+    "id": "a",
+    "inputs": [
+      "b"
+    ],
+    "transform": "identity",
+    "params": {}
+  },
+  {
+    "id": "b",
+    "inputs": [
+      "a"
+    ],
+    "transform": "identity",
+    "params": {}
+  }
+]

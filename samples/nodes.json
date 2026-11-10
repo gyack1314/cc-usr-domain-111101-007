@@ -1,0 +1,34 @@
+[
+  {
+    "id": "east_only",
+    "transform": "identity",
+    "inputs": [
+      "east/2026-11-01"
+    ],
+    "params": {}
+  },
+  {
+    "id": "all_summary",
+    "transform": "sum_by",
+    "inputs": [
+      "east_only",
+      "west/2026-11-01"
+    ],
+    "params": {
+      "key": "city",
+      "field": "distance"
+    }
+  },
+  {
+    "id": "keys",
+    "transform": "project",
+    "inputs": [
+      "all_summary"
+    ],
+    "params": {
+      "fields": [
+        "city"
+      ]
+    }
+  }
+]

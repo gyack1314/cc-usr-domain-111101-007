@@ -1,0 +1,33 @@
+[
+  {
+    "id": "east/2026-11-01",
+    "rows": [
+      {
+        "city": "east",
+        "distance": 10
+      },
+      {
+        "city": "east",
+        "distance": 20
+      }
+    ]
+  },
+  {
+    "id": "west/2026-11-01",
+    "rows": [
+      {
+        "city": "west",
+        "distance": 40
+      }
+    ]
+  },
+  {
+    "id": "east/2026-11-02",
+    "rows": [
+      {
+        "city": "east",
+        "distance": 15
+      }
+    ]
+  }
+]
